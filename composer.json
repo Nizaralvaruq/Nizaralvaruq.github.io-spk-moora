@@ -1,0 +1,17 @@
+{
+    "name": "nizar/spk_moora",
+    "autoload": {
+        "psr-4": {
+            "Nizar\\SpkMoora\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nizar12",
+            "email": "nizarqw8@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "3.1"
+    }
+}

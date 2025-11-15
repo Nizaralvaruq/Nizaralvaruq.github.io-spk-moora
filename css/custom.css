@@ -1,0 +1,56 @@
+/* Ukuran teks pada seluruh tabel */
+.table th,
+.table td,
+.display th,
+.display td {
+  font-size: 16px !important;  /* lebih besar dari default */
+  font-weight: normal !important;
+  color: #7b7a7a !important;       /* hitam agar jelas */
+  padding: 10px 12px !important;
+}
+
+/* Header tabel (thead) juga diperbesar */
+.table thead th {
+  font-size: 17px !important;
+  background-color: #f5f5f5;
+  font-weight: normal !important;
+}
+
+/* Jarak baris (line-height) agar tidak dempet */
+.table tr {
+  line-height: 1.6;
+}
+
+/* Label pada form */
+.form-group label,
+.control-label {
+  font-size: 16px !important;
+  font-weight: normal;
+  color: #848181;
+}
+
+/* Input, textarea, dan select */
+.form-control,
+.form-check-label {
+  font-size: 16px !important;
+  padding: 8px 12px !important;
+}
+
+/* Radio dan Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  transform: scale(1.2); /* perbesar kotak pilihan */
+  margin-right: 6px;
+}
+
+/* Placeholder text */
+.form-control::placeholder {
+  font-size: 15px;
+  color: #888;
+}
+
+/* Judul form */
+h3, h4 {
+  font-size: 20px !important;
+  font-weight: 600;
+}
